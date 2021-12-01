@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void messageArrived(String topic, MqttMessage message) throws Exception {
-                System.out.println("Message Arrived!: " + topic + "Sebastian " + new String(message.getPayload()));
+                System.out.println("Message Arrived!: " + topic + "SebastianSegura " + new String(message.getPayload()));
             }
 
             @Override
